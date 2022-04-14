@@ -54,9 +54,10 @@ public class C05자료형 {
 		
 		// int 자료형 (-21억 + 21억)
 		// long 자료형(8byte -음수값 o)
-//		
+
+		
 //		long var1 = 2000000000000000000L;
-//		long var2 = 100;
+//		long var2 = 1001222234223482365L;
 //		long var3 = 100;
 //		long var4 = 100;
 //		
@@ -70,14 +71,14 @@ public class C05자료형 {
 		//float(자료형)(4byte) - (5 ~ 9자리)
 
 		
-		double var1 = 10.88888888888888888888;
-		float var2 = 10.777777777777777777777F;
-		double var3 = 30.6;
-		double var4 = 40.6;
-		System.out.println("var1 : " + var1);		
-		System.out.println("var2 : " + var2);
-		System.out.println("var3 : " + var3);
-		System.out.println("var4 : " + var4);	
+//		double var1 = 10.88888888888888888888;
+//		float var2 = 10.777777777777777777777F;
+//		double var3 = 30.6;
+//		double var4 = 40.6;
+//		System.out.println("var1 : " + var1);		
+//		System.out.println("var2 : " + var2);
+//		System.out.println("var3 : " + var3);
+//		System.out.println("var4 : " + var4);	
 		
         //char 형을 10진수로 변환
 //        System.out.println((int)'a');
@@ -103,8 +104,13 @@ public class C05자료형 {
 //        System.out.println('\u0061');
 //        System.out.println('\uac00');
 //        System.out.println('\uac02');
-//
-//		
+		
+		
+		
+		int a = 10;
+		long b = 10000000000000L;
+		
+		System.out.println(a + b);
 		
 		
 	}
