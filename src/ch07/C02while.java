@@ -114,7 +114,7 @@ public class C02while {
 //			System.out.println(s);
 //			h--;
 //		}
-		
+//		
 //		int i = 4;
 //		int j = 3;
 //		
@@ -127,7 +127,7 @@ public class C02while {
 //			System.out.println();
 //			i--;
 //		}
-		
+//		
 		
 		
 		
@@ -261,28 +261,28 @@ public class C02while {
 		
 		
 		
-		String s = " ";
-		int h = 0;
-		int n = input.nextInt();
-		while (h < n) {
-			int j = n-h;
-			int k = h;
-			while (k > 0) {
-				System.out.print(s);
-				k--;
-			}
-			while (j > 0) {
-				System.out.print("*");
-				j--;
-			}
-			j =n-1-h;
-			while (j > 0) {
-				System.out.print("*");
-				j--;
-			}
-			System.out.println();
-			h++;
-		}
+//		String s = " ";
+//		int h = 0;
+//		int n = input.nextInt();
+//		while (h < n) {
+//			int j = n-h;
+//			int k = h;
+//			while (k > 0) {
+//				System.out.print(s);
+//				k--;
+//			}
+//			while (j > 0) {
+//				System.out.print("*");
+//				j--;
+//			}
+//			j =n-1-h;
+//			while (j > 0) {
+//				System.out.print("*");
+//				j--;
+//			}
+//			System.out.println();
+//			h++;
+//		}
 		// 높이 : 3
 		// *****
 		//  ***
@@ -358,44 +358,52 @@ public class C02while {
 		
 		
 		
-//		int i = 0;
-//		int j = 0;
-//		int k = 0;
-//		int h = input.nextInt();
-//		while (i < h) {  // 7
-//			
-//			if(i<(h/2)) {  //4
-//				j=0;
-//				while(j <= (h/2)-1-i) {
-//					System.out.print(" ");
-//					j++;
-//				}
-//				k=0;
-//				while(k <= 2 * i) {
-//					System.out.print("*");
-//					k++;
-//				}
-//			}else {
-//				j=0;
-//				while(j <= i - ((h/2)+1)) {
-//					System.out.print(" ");
-//					j++;
-//				}
-//				k=0;
-//				
-//				while(k <=(h-1)*2-(2*i) ) {
-//					System.out.print("*");
-//					
-//					k++;
-//				}
-//			}
-//			
-//			
-//			System.out.println();
-//			i++;
-//		}
+		int i = 0;
+		int j = 0;
+		int k = 0;
+		int h = input.nextInt();
+		while (i < h) {  // 7
+			
+			if(i<(h/2)) {  //4
+				
+				j=0;
+				while(j <= (h/2)-1-i) {
+					System.out.print(" ");
+					j++;
+				}
+				k=0;
+				while(k <= 2 * i) {
+					System.out.print("*");
+					k++;
+				}
+			}else {
+				j=0;
+				while(j <= i - ((h/2)+1)) {
+					System.out.print(" ");
+					j++;
+				}
+				k=0;
+				
+				while(k <=(h-1)*2-(2*i) ) {
+					System.out.print("*");
+					
+					k++;
+				}
+			}
+			
+			
+			System.out.println();
+			i++;
+		}
 		
 		
+		//******* 
+		// *****
+		//  ***
+		//   *
+		//  ***
+		// *****
+		//******* 			
 		
 		
 		
