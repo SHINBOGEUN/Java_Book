@@ -9,6 +9,8 @@ class C08car {
 	
 	//함수의 헤더
 	public void Accel() {
+		
+		
 		if (fuel -5 < 0) {
 			System.out.println("연료량 0 가속불가입니다.");
 			return;
@@ -39,9 +41,9 @@ class C08car {
 			System.out.printf("현재속도 %d km/h \n",speed);
 		}
 	}
-	
-	 
 }
+
+
 public class C08CarMain2 {
 	
 	public static void main(String[] args) {
@@ -51,15 +53,19 @@ public class C08CarMain2 {
 		c.fuel = 20;
 		
 		
-		while(true) {
-			
-			try {
-			Thread.sleep(500);
-			c.Break();
-			}catch (Exception e) {
-				
-			}
-		}
+		
+		
+		c.Accel();
+		
+//		while(true) {
+//			
+//			try {
+//			Thread.sleep(500);
+//			c.Break();
+//			}catch (Exception e) {
+//				
+//			}
+//		}
 		
 			
 		

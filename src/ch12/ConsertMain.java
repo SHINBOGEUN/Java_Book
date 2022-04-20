@@ -1,4 +1,4 @@
-package ch13;
+package ch12;
 
 public class ConsertMain {
 	public static void main(String[] args) {
@@ -9,8 +9,6 @@ public class ConsertMain {
 		
 		int num = con.Receive(100000, 50000);
 
-		
-		
 		
 		s.Pay(con, 100000, "A");
 		s.ShowInfo();
