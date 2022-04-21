@@ -13,5 +13,16 @@ public class C01ArrayMain {
 		
 		System.out.println(arr1.length);
 		
+		
+		double arr2[] = new double[7];
+		
+		float arr3[];
+		arr3 = new float[10];
+		
+		System.out.println("arr2의 배열의 길이 = " + arr2.length);
+		System.out.println("arr3의 배열의 길이 = " + arr3.length);
+		
+		
+		
 	}
 }

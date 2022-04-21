@@ -1,15 +1,12 @@
 package ch11;
 
 public class Seller {
-	
 	int Mymoney;
 	int Applecount;
 	int ApplePrice;
-	
-	
 	//생성자
+	
 	public Seller(int mymoney, int applecount, int price) {
-		super(); // 상속 파트에서 설명
 		Mymoney = mymoney;
 		Applecount = applecount;
 		this.ApplePrice = price;
