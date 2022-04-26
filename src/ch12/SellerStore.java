@@ -13,9 +13,9 @@ public class SellerStore {
 	
 	int Receive(int money) {
 		Mymoney += money;
-		int cnt = money/price;
-		colacount -= cnt;
-		return cnt;
+		int scnt = money/price;
+		colacount -= scnt;
+		return scnt;
 	}
 
 

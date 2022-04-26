@@ -31,7 +31,7 @@ public class C02ClassArrayMain {
 			System.out.println("3. 전체 도서 확인");
 			System.out.println("4. 종료");
 			System.out.println("---------BookStore-----------");
-			System.out.println("번호 : ");
+			System.out.print("번호 : ");
 			num= input.nextInt();
 			
 			switch(num) {
